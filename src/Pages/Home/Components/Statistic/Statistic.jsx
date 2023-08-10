@@ -47,7 +47,7 @@ const Statistic = () => {
           </div>
           <div className="p-14 rounded-full text-center bg-sky-200">
             <h2 className="font-medium sm:text-4xl text-3xl text-gray-900">
-              <CountUp end={999} duration={15} />
+              <CountUp end={999} duration={10} />
             </h2>
             <p className="leading-relaxed">Users</p>
           </div>

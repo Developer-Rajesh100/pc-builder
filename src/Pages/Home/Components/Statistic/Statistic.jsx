@@ -1,7 +1,9 @@
 import CountUp from "react-countup";
 import StatisticImg from "../../../../assets/statistic_img.jpg";
+import statisticData from "../../../../Data/homeData";
 
 const Statistic = () => {
+  console.log(statisticData[1]);
   return (
     // <section className="text-gray-600 body-font">
     //   <div className="container px-5 py-24 mx-auto">
@@ -47,7 +49,7 @@ const Statistic = () => {
           </div>
           <div className="p-14 rounded-full text-center bg-sky-200">
             <h2 className="font-medium sm:text-4xl text-3xl text-gray-900">
-              <CountUp end={999} duration={10} />
+              <CountUp end={statisticData[1].users} duration={10} />
             </h2>
             <p className="leading-relaxed">Users</p>
           </div>
